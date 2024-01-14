@@ -13,9 +13,6 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: Constants.appName,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       initialRoute: AppRoutes.splash,
       getPages: AppRoutes.routes,
       translationsKeys: AppTranslation.translationsKeys,

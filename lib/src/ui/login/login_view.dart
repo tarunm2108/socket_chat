@@ -48,7 +48,6 @@ class LoginView extends StatelessWidget {
                 AppButtonWidget(
                   onPressed: () => controller.loginTap(),
                   title: LangKey.login.tr,
-                  showLoader: controller.setBusy,
                 ),
               ],
             ),
